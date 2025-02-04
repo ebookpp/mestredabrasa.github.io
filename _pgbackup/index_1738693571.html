@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Tempero</title>
+        <meta name="robots" content="noindex, nofollow">
+        <script type="application/javascript" id="pys-version-script">console.log('PixelYourSite Free version 9.5.2');</script>
+        <link rel="alternate" type="application/rss+xml" title="Tempero » Feed" href="https://institutoedunova.org/tempero/feed/">
+        <link rel="alternate" type="application/rss+xml" title="Tempero » Comments Feed" href="https://institutoedunova.org/tempero/comments/feed/">
+        <style id="classic-theme-styles-inline-css">/* ! This file is auto-generated */.wp-block-button__link { color: #fff; background-color: #32373c; border-radius: 9999px; box-shadow: none; text-decoration: none; padding: calc(.667em + 2px) calc(1.333em + 2px); font-size: 1.125em; } .wp-block-file__button { background: #32373c; color: #fff; text-decoration: none; }</style>
+        <style id="global-styles-inline-css">body { --wp--preset--color--black: #000000; --wp--preset--color--cyan-bluish-gray: #abb8c3; --wp--preset--color--white: #ffffff; --wp--preset--color--pale-pink: #f78da7; --wp--preset--color--vivid-red: #cf2e2e; --wp--preset--color--luminous-vivid-orange: #ff6900; --wp--preset--color--luminous-vivid-amber: #fcb900; --wp--preset--color--light-green-cyan: #7bdcb5; --wp--preset--color--vivid-green-cyan: #00d084; --wp--preset--color--pale-cyan-blue: #8ed1fc; --wp--preset--color--vivid-cyan-blue: #0693e3; --wp--preset--color--vivid-purple: #9b51e0; --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%); --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%); --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%); --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%); --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%); --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%); --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%); --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%); --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%); --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%); --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%); --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%); --wp--preset--font-size--small: 13px; --wp--preset--font-size--medium: 20px; --wp--preset--font-size--large: 36px; --wp--preset--font-size--x-large: 42px; --wp--preset--spacing--20: 0.44rem; --wp--preset--spacing--30: 0.67rem; --wp--preset--spacing--40: 1rem; --wp--preset--spacing--50: 1.5rem; --wp--preset--spacing--60: 2.25rem; --wp--preset--spacing--70: 3.38rem; --wp--preset--spacing--80: 5.06rem; --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2); --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4); --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2); --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1); --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1); } :where(.is-layout-flex) { gap: 0.5em; } :where(.is-layout-grid) { gap: 0.5em; } body .is-layout-flow > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; } body .is-layout-flow > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; } body .is-layout-flow > .aligncenter { margin-left: auto !important; margin-right: auto !important; } body .is-layout-constrained > .alignleft { float: left; margin-inline-start: 0; margin-inline-end: 2em; } body .is-layout-constrained > .alignright { float: right; margin-inline-start: 2em; margin-inline-end: 0; } body .is-layout-constrained > .aligncenter { margin-left: auto !important; margin-right: auto !important; } body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) { max-width: var(--wp--style--global--content-size); margin-left: auto !important; margin-right: auto !important; } body .is-layout-constrained > .alignwide { max-width: var(--wp--style--global--wide-size); } body .is-layout-flex { display: flex; } body .is-layout-flex { flex-wrap: wrap; align-items: center; } body .is-layout-flex > * { margin: 0; } body .is-layout-grid { display: grid; } body .is-layout-grid > * { margin: 0; } :where(.wp-block-columns.is-layout-flex) { gap: 2em; } :where(.wp-block-columns.is-layout-grid) { gap: 2em; } :where(.wp-block-post-template.is-layout-flex) { gap: 1.25em; } :where(.wp-block-post-template.is-layout-grid) { gap: 1.25em; } .has-black-color { color: var(--wp--preset--color--black) !important; } .has-cyan-bluish-gray-color { color: var(--wp--preset--color--cyan-bluish-gray) !important; } .has-white-color { color: var(--wp--preset--color--white) !important; } .has-pale-pink-color { color: var(--wp--preset--color--pale-pink) !important; } .has-vivid-red-color { color: var(--wp--preset--color--vivid-red) !important; } .has-luminous-vivid-orange-color { color: var(--wp--preset--color--luminous-vivid-orange) !important; } .has-luminous-vivid-amber-color { color: var(--wp--preset--color--luminous-vivid-amber) !important; } .has-light-green-cyan-color { color: var(--wp--preset--color--light-green-cyan) !important; } .has-vivid-green-cyan-color { color: var(--wp--preset--color--vivid-green-cyan) !important; } .has-pale-cyan-blue-color { color: var(--wp--preset--color--pale-cyan-blue) !important; } .has-vivid-cyan-blue-color { color: var(--wp--preset--color--vivid-cyan-blue) !important; } .has-vivid-purple-color { color: var(--wp--preset--color--vivid-purple) !important; } .has-black-background-color { background-color: var(--wp--preset--color--black) !important; } .has-cyan-bluish-gray-background-color { background-color: var(--wp--preset--color--cyan-bluish-gray) !important; } .has-white-background-color { background-color: var(--wp--preset--color--white) !important; } .has-pale-pink-background-color { background-color: var(--wp--preset--color--pale-pink) !important; } .has-vivid-red-background-color { background-color: var(--wp--preset--color--vivid-red) !important; } .has-luminous-vivid-orange-background-color { background-color: var(--wp--preset--color--luminous-vivid-orange) !important; } .has-luminous-vivid-amber-background-color { background-color: var(--wp--preset--color--luminous-vivid-amber) !important; } .has-light-green-cyan-background-color { background-color: var(--wp--preset--color--light-green-cyan) !important; } .has-vivid-green-cyan-background-color { background-color: var(--wp--preset--color--vivid-green-cyan) !important; } .has-pale-cyan-blue-background-color { background-color: var(--wp--preset--color--pale-cyan-blue) !important; } .has-vivid-cyan-blue-background-color { background-color: var(--wp--preset--color--vivid-cyan-blue) !important; } .has-vivid-purple-background-color { background-color: var(--wp--preset--color--vivid-purple) !important; } .has-black-border-color { border-color: var(--wp--preset--color--black) !important; } .has-cyan-bluish-gray-border-color { border-color: var(--wp--preset--color--cyan-bluish-gray) !important; } .has-white-border-color { border-color: var(--wp--preset--color--white) !important; } .has-pale-pink-border-color { border-color: var(--wp--preset--color--pale-pink) !important; } .has-vivid-red-border-color { border-color: var(--wp--preset--color--vivid-red) !important; } .has-luminous-vivid-orange-border-color { border-color: var(--wp--preset--color--luminous-vivid-orange) !important; } .has-luminous-vivid-amber-border-color { border-color: var(--wp--preset--color--luminous-vivid-amber) !important; } .has-light-green-cyan-border-color { border-color: var(--wp--preset--color--light-green-cyan) !important; } .has-vivid-green-cyan-border-color { border-color: var(--wp--preset--color--vivid-green-cyan) !important; } .has-pale-cyan-blue-border-color { border-color: var(--wp--preset--color--pale-cyan-blue) !important; } .has-vivid-cyan-blue-border-color { border-color: var(--wp--preset--color--vivid-cyan-blue) !important; } .has-vivid-purple-border-color { border-color: var(--wp--preset--color--vivid-purple) !important; } .has-vivid-cyan-blue-to-vivid-purple-gradient-background { background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important; } .has-light-green-cyan-to-vivid-green-cyan-gradient-background { background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important; } .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background { background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important; } .has-luminous-vivid-orange-to-vivid-red-gradient-background { background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important; } .has-very-light-gray-to-cyan-bluish-gray-gradient-background { background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important; } .has-cool-to-warm-spectrum-gradient-background { background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important; } .has-blush-light-purple-gradient-background { background: var(--wp--preset--gradient--blush-light-purple) !important; } .has-blush-bordeaux-gradient-background { background: var(--wp--preset--gradient--blush-bordeaux) !important; } .has-luminous-dusk-gradient-background { background: var(--wp--preset--gradient--luminous-dusk) !important; } .has-pale-ocean-gradient-background { background: var(--wp--preset--gradient--pale-ocean) !important; } .has-electric-grass-gradient-background { background: var(--wp--preset--gradient--electric-grass) !important; } .has-midnight-gradient-background { background: var(--wp--preset--gradient--midnight) !important; } .has-small-font-size { font-size: var(--wp--preset--font-size--small) !important; } .has-medium-font-size { font-size: var(--wp--preset--font-size--medium) !important; } .has-large-font-size { font-size: var(--wp--preset--font-size--large) !important; } .has-x-large-font-size { font-size: var(--wp--preset--font-size--x-large) !important; } .wp-block-navigation a:where(:not(.wp-element-button)) { color: inherit; } :where(.wp-block-post-template.is-layout-flex) { gap: 1.25em; } :where(.wp-block-post-template.is-layout-grid) { gap: 1.25em; } :where(.wp-block-columns.is-layout-flex) { gap: 2em; } :where(.wp-block-columns.is-layout-grid) { gap: 2em; } .wp-block-pullquote { font-size: 1.5em; line-height: 1.6; }</style>
+        <!-- <link rel='stylesheet' id='hello-elementor-css' href='https://institutoedunova.org/tempero/wp-content/themes/hello-elementor/style.min.css?ver=3.0.1' media='all' /> -->
+        <!-- <link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://institutoedunova.org/tempero/wp-content/themes/hello-elementor/theme.min.css?ver=3.0.1' media='all' /> -->
+        <!-- <link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://institutoedunova.org/tempero/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.0.1' media='all' /> -->
+        <!-- <link rel='stylesheet' id='elementor-frontend-css' href='https://institutoedunova.org/tempero/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.19.4' media='all' /> -->
+        <link rel="stylesheet" type="text/css" href="css/2720v_2.css" media="all">
+        <link rel="stylesheet" id="elementor-post-8-css" href="css/post-8.css" media="all">
+        <!-- <link rel='stylesheet' id='swiper-css' href='https://institutoedunova.org/tempero/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' /> -->
+        <!-- <link rel='stylesheet' id='elementor-global-css' href='https://institutoedunova.org/tempero/wp-content/uploads/elementor/css/global.css?ver=1710130058' media='all' /> -->
+        <link rel="stylesheet" type="text/css" href="css/2720v_1.css" media="all">
+        <link rel="stylesheet" id="elementor-post-9-css" href="css/post-9.css" media="all">
+        <link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap&ver=6.4.5" media="all">
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <script src="js/2720v.js" type="text/javascript"></script>
+        <!-- <script src="https://institutoedunova.org/tempero/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script> -->
+        <!-- <script src="https://institutoedunova.org/tempero/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script> -->
+        <!-- <script src="https://institutoedunova.org/tempero/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=6.4.5" id="jquery-bind-first-js"></script> -->
+        <!-- <script src="https://institutoedunova.org/tempero/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3" id="js-cookie-pys-js"></script> -->
+        <script id="pys-js-extra">
+var pysOptions = {"staticEvents":{"facebook":{"init_event":[{"delay":0,"type":"static","name":"PageView","pixelIds":["198122446477096"],"eventID":"02fab364-b8e2-4b3b-ae07-1be704f3291d","params":{"page_title":"home","post_type":"page","post_id":9,"plugin":"PixelYourSite","user_role":"guest","event_url":"institutoedunova.org\/tempero\/"},"e_id":"init_event","ids":[],"hasTimeWindow":false,"timeWindow":0,"woo_order":"","edd_order":""}]}},"dynamicEvents":[],"triggerEvents":[],"triggerEventTypes":[],"facebook":{"pixelIds":["198122446477096"],"advancedMatching":[],"advancedMatchingEnabled":true,"removeMetadata":false,"contentParams":{"post_type":"page","post_id":9,"content_name":"home"},"commentEventEnabled":true,"wooVariableAsSimple":false,"downloadEnabled":true,"formEventEnabled":true,"serverApiEnabled":true,"wooCRSendFromServer":false,"send_external_id":null},"debug":"","siteUrl":"https:\/\/institutoedunova.org\/tempero","ajaxUrl":"https:\/\/institutoedunova.org\/tempero\/wp-admin\/admin-ajax.php","ajax_event":"80e88319f0","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","enable_success_send_form":"","ajaxForServerEvent":"1","send_external_id":"1","external_id_expire":"180","google_consent_mode":"1","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_tiktok_consent_category":"marketing","cookiebot_google_ads_consent_category":null,"cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false,"analytics_storage":{"enabled":true,"value":"granted","filter":false},"ad_storage":{"enabled":true,"value":"granted","filter":false},"ad_user_data":{"enabled":true,"value":"granted","filter":false},"ad_personalization":{"enabled":true,"value":"granted","filter":false}},"cookie":{"disabled_all_cookie":false,"disabled_start_session_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"tracking_analytics":{"TrafficSource":"direct","TrafficLanding":"https:\/\/institutoedunova.org\/tempero\/","TrafficUtms":[],"TrafficUtmsId":[]},"woo":{"enabled":false},"edd":{"enabled":false}};
+</script>
+        <script src="js/2720v_1.js" type="text/javascript"></script>
+        <!-- <script src="https://institutoedunova.org/tempero/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=9.5.2" id="pys-js"></script> -->
+        <link rel="https://api.w.org/" href="https://institutoedunova.org/tempero/wp-json/">
+        <link rel="alternate" type="application/json" href="https://institutoedunova.org/tempero/wp-json/wp/v2/pages/9">
+        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://institutoedunova.org/tempero/xmlrpc.php?rsd">
+        <meta name="generator" content="WordPress 6.4.5">
+        <link rel="canonical" href="https://institutoedunova.org/tempero/">
+        <link rel="shortlink" href="https://institutoedunova.org/tempero/">
+        <link rel="alternate" type="application/json+oembed" href="https://institutoedunova.org/tempero/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finstitutoedunova.org%2Ftempero%2F">
+        <link rel="alternate" type="text/xml+oembed" href="https://institutoedunova.org/tempero/wp-json/oembed/1.0/embed?url=https%3A%2F%2Finstitutoedunova.org%2Ftempero%2F&format=xml">
+        <meta name="generator" content="Elementor 3.19.4; features: e_optimized_assets_loading, e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    </head>
+    <body class="home page-template page-template-elementor_canvas page page-id-9 elementor-default elementor-template-canvas elementor-kit-8 elementor-page elementor-page-9">
+        <div data-elementor-type="wp-page" data-elementor-id="9" class="elementor elementor-9">
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-66ae0e46 elementor-section-boxed elementor-section-height-default" data-id="66ae0e46" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-382ed6c2" data-id="382ed6c2" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-623bcb8b" data-id="623bcb8b" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-fbcd697 elementor-widget elementor-widget-image" data-id="fbcd697" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <style>/* ! elementor - v3.19.0 - 28-02-2024 */.elementor-widget-image, .pg-node-id-1, .pg-main-cs-8, .pg-file-cs-8 { text-align: center; } .elementor-widget-image a, .pg-node-id-2, .pg-main-cs-8, .pg-file-cs-8 { display: inline-block; } .elementor-widget-image a img[src$=".svg"], .pg-node-id-3, .pg-main-cs-8, .pg-file-cs-8 { width: 48px; } .elementor-widget-image img, .pg-node-id-4, .pg-main-cs-8, .pg-file-cs-8 { vertical-align: middle; display: inline-block; }</style>                                     
+                                    <img fetchpriority="high" decoding="async" width="300" height="300" src="images/01-300x300.png" class="attachment-medium size-medium wp-image-20" alt="" srcset="images/01-300x300.png 300w, images/01-150x150.png 150w, images/01.png 500w" sizes="(max-width: 300px) 100vw, 300px"> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-3c32ee8b elementor-widget elementor-widget-heading" data-id="3c32ee8b" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <style>/* ! elementor - v3.19.0 - 28-02-2024 */.elementor-heading-title, .pg-node-id-1, .pg-main-cs-9, .pg-file-cs-9 { padding: 0; margin: 0; line-height: 1; } .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a, .pg-node-id-2, .pg-main-cs-9, .pg-file-cs-9 { color: inherit; font-size: inherit; line-height: inherit; } .elementor-widget-heading .elementor-heading-title.elementor-size-small, .pg-node-id-3, .pg-main-cs-9, .pg-file-cs-9 { font-size: 15px; } .elementor-widget-heading .elementor-heading-title.elementor-size-medium, .pg-node-id-4, .pg-main-cs-9, .pg-file-cs-9 { font-size: 19px; } .elementor-widget-heading .elementor-heading-title.elementor-size-large, .pg-node-id-5, .pg-main-cs-9, .pg-file-cs-9 { font-size: 29px; } .elementor-widget-heading .elementor-heading-title.elementor-size-xl, .pg-node-id-6, .pg-main-cs-9, .pg-file-cs-9 { font-size: 39px; } .elementor-widget-heading .elementor-heading-title.elementor-size-xxl, .pg-node-id-7, .pg-main-cs-9, .pg-file-cs-9 { font-size: 59px; }</style>
+                                    <h1 class="elementor-heading-title elementor-size-default">Eleve seu churrasco a outro nível, torne-se um MESTRE CHURRASQUEIRO.</h1> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-7e9f37de elementor-widget elementor-widget-heading" data-id="7e9f37de" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h4 class="elementor-heading-title elementor-size-default">Descubra os segredos do verdadeiro churrasco e aprenda a preparar carnes perfeitas, com sabor irresistível e suculência no ponto certo!. 🍖🔥</h4> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-2d3d65c0 elementor-widget elementor-widget-image" data-id="2d3d65c0" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gG9HMWN2TYU?si=PEG6UO6Aazq-1vL8&amp;start=15" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                                     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-2832eafa" data-id="2832eafa" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-2f17fb80 elementor-section-boxed elementor-section-height-default" data-id="2f17fb80" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-7119fa89" data-id="7119fa89" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-2303108a" data-id="2303108a" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-70b6bc6a elementor-widget elementor-widget-image" data-id="70b6bc6a" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img decoding="async" width="775" height="270" src="images/03.png" class="attachment-large size-large wp-image-22" alt="" srcset="images/03.png 775w, images/03-300x105.png 300w, images/03-768x268.png 768w" sizes="(max-width: 775px) 100vw, 775px"> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-7c6cada5 elementor-widget__width-inherit elementor-align-center elementor-widget elementor-widget-button" data-id="7c6cada5" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="https://app.monetizze.com.br/checkout/KSA299305"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Liberar Guia Completo</span></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-11de950b" data-id="11de950b" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-39b7b6b1 elementor-section-boxed elementor-section-height-default" data-id="39b7b6b1" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-44cbad45" data-id="44cbad45" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-212ed8b6" data-id="212ed8b6" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-3194e742 elementor-widget elementor-widget-heading" data-id="3194e742" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Vantagens em fazer seu próprio churrasco de mestre!</h2> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-4912fe11" data-id="4912fe11" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-3720b45b elementor-section-boxed elementor-section-height-default" data-id="3720b45b" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-6909bdd3" data-id="6909bdd3" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-716e81d1" data-id="716e81d1" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-38693d56 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="38693d56" data-element_type="widget" data-widget_type="icon-list.default">
+                                <div class="elementor-widget-container">
+                                    <!-- <link rel="stylesheet" href="https://institutoedunova.org/tempero/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css"> -->
+                                    <link rel="stylesheet" type="text/css" href="css/2720v.css" media="all"> 
+                                    <ul class="elementor-icon-list-items">
+                                        <li class="elementor-icon-list-item">
+                                            <span class="elementor-icon-list-icon"> </span>
+                                            <span class="elementor-icon-list-text"><h2><strong>🍖 Por que você deve comprar este eBook?</strong></h2><p>✅ <strong>Guia Completo do Churrasco:</strong> Desde a história do churrasco até técnicas avançadas, este manual é o mais completo que você encontrará.</p><p>✅ <strong>82 Receitas Deliciosas:</strong> Para todos os tipos de carne, acompanhamentos e molhos que vão elevar seu churrasco a outro nível.</p><p>✅ <strong>Aprenda com Profissionais:</strong> Técnicas e segredos que churrasqueiros experientes utilizam para preparar carnes no ponto ideal.</p><p>✅ <strong>Evite Erros Comuns:</strong> Saiba o que evitar para que sua carne fique sempre suculenta e saborosa.</p><p>✅ <strong>Promoção Imperdível:</strong> De <strong>R$97 por apenas R$37</strong> &ndash; e você ainda recebe <strong>2 eBooks pelo preço de 1</strong>!</p><p>✅ <strong>Garantia Incondicional de 7 Dias:</strong> Se você não gostar do material, devolvemos seu dinheiro sem burocracia!</p><p>🚀 <strong>Chegou a hora de elevar seu churrasco a outro nível!</strong></p></span>
+                                        </li>
+                                        <li class="elementor-icon-list-item">
+</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3a3ceb87" data-id="3a3ceb87" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-69a8b92d elementor-section-boxed elementor-section-height-default" data-id="69a8b92d" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-7e93d3d3" data-id="7e93d3d3" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-6eb2aeb3" data-id="6eb2aeb3" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-667a8dab elementor-widget elementor-widget-heading" data-id="667a8dab" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Um pouco do que você terá acesso...</h2> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-479509c" data-id="479509c" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-3dc49a36 elementor-section-boxed elementor-section-height-default" data-id="3dc49a36" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-59af5e2a" data-id="59af5e2a" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-4300d4fc" data-id="4300d4fc" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-4d9be82c elementor-widget elementor-widget-heading" data-id="4d9be82c" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">(Liberado por pouco tempo)</h2> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-48568493" data-id="48568493" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-6f23c5ec elementor-section-boxed elementor-section-height-default" data-id="6f23c5ec" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c1e6218" data-id="c1e6218" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-23d4fc2a elementor-widget elementor-widget-image" data-id="23d4fc2a" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img decoding="async" src="images/04-ql1d7vlrvpqo4l3bs0268zmdb9esxsudn9up7vc7k4.png" title="04" alt="04" loading="lazy"> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73fba50a" data-id="73fba50a" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-2f30b960 elementor-widget elementor-widget-text-editor" data-id="2f30b960" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <style>/* ! elementor - v3.19.0 - 28-02-2024 */.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap, .pg-node-id-1, .pg-main-cs-11, .pg-file-cs-11 { background-color: #69727d; color: #fff; } .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap, .pg-node-id-2, .pg-main-cs-11, .pg-file-cs-11 { color: #69727d; border: 3px solid; background-color: transparent; } .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap, .pg-node-id-3, .pg-main-cs-11, .pg-file-cs-11 { margin-top: 8px; } .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter, .pg-node-id-4, .pg-main-cs-11, .pg-file-cs-11 { width: 1em; height: 1em; } .elementor-widget-text-editor .elementor-drop-cap, .pg-node-id-5, .pg-main-cs-11, .pg-file-cs-11 { float: left; text-align: center; line-height: 1; font-size: 50px; } .elementor-widget-text-editor .elementor-drop-cap-letter, .pg-node-id-6, .pg-main-cs-11, .pg-file-cs-11 { display: inline-block; }</style>                                     
+                                    <p>🥩 Ingredientes Necessários para um Churrasco de Qualidade</p> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-114d9c79 elementor-widget elementor-widget-text-editor" data-id="114d9c79" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p>A qualidade do churrasco começa na escolha dos ingredientes! <br>Você aprenderá:</p>
+                                    <p>✔️ As melhores raças de gado para carne de churrasco<br>✔️ Como escolher cortes nobres e macios<br>✔️ O segredo dos temperos e marinadas<br>✔️ Carvão ou lenha? Qual o melhor combustível para um sabor irresistível</p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-4a33419e elementor-section-boxed elementor-section-height-default" data-id="4a33419e" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4f6c9ec2" data-id="4f6c9ec2" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-40e32260 elementor-widget elementor-widget-image" data-id="40e32260" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img decoding="async" src="images/05-ql1d7vlrvpqo4l3bs0268zmdb9esxsudn9up7vc7k4.png" title="05" alt="05" loading="lazy"> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-69fc1e9e" data-id="69fc1e9e" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-450170bf elementor-widget elementor-widget-text-editor" data-id="450170bf" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p>🔥 Variedades de Receitas para Dominar o Churrasco</p> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-1ce4270a elementor-widget elementor-widget-text-editor" data-id="1ce4270a" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p><p>Com o <strong>eBook Mestre Churrasqueiro</strong>, você terá acesso a <strong>82 receitas incríveis</strong>, incluindo:</p><p>🥩 Picanha ao ponto perfeito<br>🍗 Frango suculento na brasa<br>🥓 Costela fogo de chão<br>🌭 Linguiça recheada artesanal<br>🍞 Pão de alho cremoso<br>🥗 Acompanhamentos que fazem a diferença<br>🥤 Molhos especiais para realçar o sabor das carnes</p></p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-1d4ece9c elementor-section-boxed elementor-section-height-default" data-id="1d4ece9c" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2f18bcb6" data-id="2f18bcb6" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-12d88cbc elementor-widget elementor-widget-image" data-id="12d88cbc" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img decoding="async" src="images/06-ql1d7wjm2jryg71ymigsthdtwna65hy3zei6p5atdw.png" title="06" alt="06" loading="lazy"> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4fbeb94c" data-id="4fbeb94c" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-55cf1723 elementor-widget elementor-widget-text-editor" data-id="55cf1723" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p>VARIEDADE DE RECEITAS</p> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-35b3ecdc elementor-widget elementor-widget-text-editor" data-id="35b3ecdc" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p>Com uma variedade de receitas, você pode experimentar diferentes combinações de ervas, especiarias e outros ingredientes para criar sabores únicos e personalizados. Ao expandir seu repertório de receitas de temperos caseiros, você pode adicionar variedade e sabor a suas refeições, transformando pratos simples em algo especial. Explore novas receitas e ingredientes para criar temperos caseiros deliciosos e surpreenda seu paladar.</p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-33163d83 elementor-section-boxed elementor-section-height-default" data-id="33163d83" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-73ad88eb" data-id="73ad88eb" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-42562ec9" data-id="42562ec9" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-2c07380d elementor-widget elementor-widget-heading" data-id="2c07380d" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">📖 Veja o que você vai aprender no Manual do Mestre Churrasqueiro</h2> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3a829fc6" data-id="3a829fc6" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-57d7c52a elementor-section-boxed elementor-section-height-default" data-id="57d7c52a" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-35f63038" data-id="35f63038" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-4e6eca98" data-id="4e6eca98" data-element_type="column" data-settings="{" background_background":"classic"}"="">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-5da5776 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5da5776" data-element_type="widget" data-widget_type="icon-list.default">
+                                <div class="elementor-widget-container">
+                                    <ul class="elementor-icon-list-items">
+                                        <li class="elementor-icon-list-item">
+                                            <span class="elementor-icon-list-icon"> </span>
+                                            <span class="elementor-icon-list-text"><p>🔸 <strong>A História do Churrasco</strong> &ndash; Conheça a origem e evolução dessa tradição mundial.<br>🔸 <strong>Principais Raças de Corte do Brasil</strong> &ndash; Aprenda quais carnes são melhores para churrasco.<br>🔸 <strong>Melhores Cortes para Churrasco</strong> &ndash; Saiba escolher carnes macias e suculentas.<br>🔸 <strong>Como Acender a Churrasqueira Corretamente</strong> &ndash; Técnicas eficientes para não errar na brasa.<br>🔸 <strong>Dicas de Ouro para um Churrasco Perfeito</strong> &ndash; Pequenos detalhes que fazem toda a diferença.<br>🔸 <strong>Fogo de Chão &ndash; A Arte do Churrasco Rústico</strong> &ndash; Aprenda a técnica dos campeões do fogo de chão.<br>🔸 <strong>Receitas Irresistíveis para Todos os Gustos</strong> &ndash; 82 receitas para elevar seu churrasco ao nível profissional.</p></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-1a81dc4d" data-id="1a81dc4d" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-7dbc7acc elementor-section-boxed elementor-section-height-default" data-id="7dbc7acc" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-5958d798" data-id="5958d798" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-25b74879" data-id="25b74879" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-156a1098 elementor-widget elementor-widget-spacer" data-id="156a1098" data-element_type="widget" data-widget_type="spacer.default">
+                                <div class="elementor-widget-container">
+                                    <style>/* ! elementor - v3.19.0 - 28-02-2024 */.elementor-column .elementor-spacer-inner, .pg-node-id-1, .pg-main-cs-12, .pg-file-cs-12 { height: var(--spacer-size); } .e-con, .pg-node-id-2, .pg-main-cs-12, .pg-file-cs-12 { --container-widget-width: 100%; } .e-con-inner>.elementor-widget-spacer, .e-con>.elementor-widget-spacer, .pg-node-id-3, .pg-main-cs-12, .pg-file-cs-12 { width: var(--container-widget-width,var(--spacer-size)); --align-self: var(--container-widget-align-self,initial); --flex-shrink: 0; } .e-con-inner>.elementor-widget-spacer>.elementor-widget-container, .e-con>.elementor-widget-spacer>.elementor-widget-container, .pg-node-id-4, .pg-main-cs-12, .pg-file-cs-12 { height: 100%; width: 100%; } .e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer, .e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer, .pg-node-id-5, .pg-main-cs-12, .pg-file-cs-12 { height: 100%; } .e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner, .e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner, .pg-node-id-6, .pg-main-cs-12, .pg-file-cs-12 { height: var(--container-widget-height,var(--spacer-size)); } .e-con-inner>.elementor-widget-spacer.elementor-widget-empty, .e-con>.elementor-widget-spacer.elementor-widget-empty, .pg-node-id-7, .pg-main-cs-12, .pg-file-cs-12 { position: relative; min-height: 22px; min-width: 22px; } .e-con-inner>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon, .e-con>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon, .pg-node-id-8, .pg-main-cs-12, .pg-file-cs-12 { position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto; padding: 0; width: 22px; height: 22px; }</style>                                     
+                                    <div class="elementor-spacer">
+                                        <div class="elementor-spacer-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-34d19e2b" data-id="34d19e2b" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-50da5473 elementor-section-boxed elementor-section-height-default" data-id="50da5473" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3f07c47d" data-id="3f07c47d" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-5669be23" data-id="5669be23" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-61bc383d elementor-widget elementor-widget-text-editor" data-id="61bc383d" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p><strong><span style="color: #ffebb8;">Você não precisa mais quebrar a cabeça ou perder tempo!</span></strong></p>
+                                    <p><span style="color: #9fee13;">Você aprenderá sem mistérios como fazer seus própios temperos e deixar suas receitas ainda mais soborosas!</span></p> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-50b60c59 elementor-widget elementor-widget-image" data-id="50b60c59" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img loading="lazy" decoding="async" width="1640" height="525" src="images/07.png" class="attachment-full size-full wp-image-26" alt="" srcset="images/07.png 1640w, images/07-300x96.png 300w, images/07-1024x328.png 1024w, images/07-768x246.png 768w, images/07-1536x492.png 1536w" sizes="(max-width: 1640px) 100vw, 1640px"> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-67c8ee4a elementor-widget__width-inherit elementor-align-center elementor-widget elementor-widget-button" data-id="67c8ee4a" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="https://app.monetizze.com.br/checkout/KSA299305"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Liberar Guia Completo</span></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-636e678b" data-id="636e678b" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-7c295217 elementor-section-boxed elementor-section-height-default" data-id="7c295217" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-56bb131d" data-id="56bb131d" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-229f87d8" data-id="229f87d8" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-ee71271" data-id="ee71271" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-5b42cb27 elementor-section-boxed elementor-section-height-default" data-id="5b42cb27" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3a0dbbff" data-id="3a0dbbff" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-37258e51" data-id="37258e51" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-30139012 elementor-widget elementor-widget-heading" data-id="30139012" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">🎁 Recapitulando Tudo Que Você Vai Levar</h2> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-608d8246" data-id="608d8246" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-6413a1b5 elementor-section-boxed elementor-section-height-default" data-id="6413a1b5" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-c5818be" data-id="c5818be" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-3c486b14" data-id="3c486b14" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-7d7fd020 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7d7fd020" data-element_type="widget" data-widget_type="icon-list.default">
+                                <div class="elementor-widget-container">
+                                    <ul class="elementor-icon-list-items">
+                                        <li class="elementor-icon-list-item">
+                                            <span class="elementor-icon-list-icon"> </span>
+                                            <span class="elementor-icon-list-text"><p>✅ <strong>O eBook Mestre Churrasqueiro Completo</strong> 📘<br>✅ <strong>+82 Receitas Deliciosas</strong> 🥩<br>✅ <strong>Guia de Equipamentos e Ingredientes Essenciais</strong> 🔥<br>✅ <strong>Dicas Secretas de Mestres Churrasqueiros</strong> 👨‍🍳<br>✅ <strong>Acesso Imediato em PDF para Ler no Celular ou notebook</strong>&nbsp;📱<br>✅ <strong>Garantia Incondicional de 7 Dias</strong> 🔒<br>✅ <strong>Preço Promocional de R$97 por Apenas R$37</strong> 💰<br>✅ <strong>Bônus: 2 eBooks pelo preço de 1!</strong> 🎉</p></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-2360bb51" data-id="2360bb51" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-49116c6 elementor-section-boxed elementor-section-height-default" data-id="49116c6" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-78d9124d" data-id="78d9124d" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-7c8be275" data-id="7c8be275" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-5a28bcbb elementor-widget elementor-widget-text-editor" data-id="5a28bcbb" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p><strong>A proposta é simples e clara&hellip;</strong></p>
+                                    <p>O guia mais eficaz e completo que você já viu. E por um valor especial que cabe no seu bolso.</p>
+                                    <p><strong>HOJE VOCÊ ESTÁ TENDO A CHANCE DE LEVAR TUDO ISSO POR APENAS R$ 10,00 </strong></p>
+                                    <p>Sem pegadinhas, pagamento único e acesso vitalício.</p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-6b9a872d" data-id="6b9a872d" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-1285f41d elementor-section-boxed elementor-section-height-default" data-id="1285f41d" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-30d87832" data-id="30d87832" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-132899df" data-id="132899df" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-fcd986d elementor-widget elementor-widget-heading" data-id="fcd986d" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Garanta já seu eBook e torne-se um verdadeiro Mestre Churrasqueiro!</h2> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-772ca887 elementor-widget elementor-widget-image" data-id="772ca887" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img decoding="async" src="images/08-ql1d80b1viw6rnau1u98dnjkvjapnoec1el1zrcars.png" title="08" alt="08" loading="lazy"> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-56879866 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="56879866" data-element_type="widget" data-widget_type="icon-list.default">
+                                <div class="elementor-widget-container">
+                                    <ul class="elementor-icon-list-items">
+                                        <li class="elementor-icon-list-item">
+                                            <span class="elementor-icon-list-icon"><svg aria-hidden="true" class="e-font-icon-svg e-far-check-circle" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"></path>
+                                                </svg> </span>
+                                            <span class="elementor-icon-list-text">Temperos Caseiros - Guia Completo</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-397f3cd9 elementor-widget elementor-widget-image" data-id="397f3cd9" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img loading="lazy" decoding="async" width="626" height="338" src="images/preco-baixo.png" class="attachment-large size-large wp-image-28" alt="" srcset="images/preco-baixo.png 626w, images/preco-baixo-300x162.png 300w" sizes="(max-width: 626px) 100vw, 626px"> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-373186cd elementor-widget__width-inherit elementor-align-center elementor-widget elementor-widget-button" data-id="373186cd" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="https://app.monetizze.com.br/checkout/KSA299305"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Liberar Guia Completo</span></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-22ef63cb elementor-widget elementor-widget-image" data-id="22ef63cb" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img decoding="async" src="images/selos-2.png" title="selos-2" alt="selos-2" loading="lazy"> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-1def2c69" data-id="1def2c69" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-7bb2ae7 elementor-section-boxed elementor-section-height-default" data-id="7bb2ae7" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-49035252" data-id="49035252" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-623d73e1" data-id="623d73e1" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-1dd09e89 elementor-widget elementor-widget-spacer" data-id="1dd09e89" data-element_type="widget" data-widget_type="spacer.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-spacer">
+                                        <div class="elementor-spacer-inner"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-33f487a5 elementor-widget elementor-widget-heading" data-id="33f487a5" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Por que somente R$10?</h2> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-1784f30f elementor-widget elementor-widget-text-editor" data-id="1784f30f" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p>Se você prestar atenção, o valor de R$10 não parece ser um valor aleatório para cobrar em um produto (e de fato não é).</p>
+                                    <p><strong>Razão número 01:</strong> O valor não se torna um obstáculo para ninguém.</p>
+                                    <p><strong>Razão número 02:</strong> Proteção contra curiosos.</p>
+                                    <p>Mesmo que o investimento seja baixo, o simples fato de cobrar já afasta curiosos em busca de &ldquo;soluções gratuitas&rdquo; na internet.</p>
+                                    <p>E quem gosta do produto, fica com confiança e interesse em avançar na jornada.</p>
+                                    <p>Sem pegadinhas, sem letras miúdas ou nada do tipo.</p> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-5074c78e elementor-widget elementor-widget-heading" data-id="5074c78e" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Em quanto tempo eu irei receber meu acesso?</h2> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-542a1fc6 elementor-widget elementor-widget-text-editor" data-id="542a1fc6" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    Imediatamante.
+                                    Logo após a aprovação do seu pagamento, você irá receber no seu e-mail de compra os seus dados de login e então poderá começar imediatamente os seus estudos.						
+</div>
+                            </div>
+                            <div class="elementor-element elementor-element-64d35a1c elementor-widget elementor-widget-heading" data-id="64d35a1c" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">O pagamento é único?</h2> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-28b416fd elementor-widget elementor-widget-text-editor" data-id="28b416fd" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    Sim! Pagamento único e acesso vitalício.						
+</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-3b255efc" data-id="3b255efc" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-bba52c4 elementor-section-boxed elementor-section-height-default" data-id="bba52c4" data-element_type="section" data-settings="{" background_background":"classic"}"="">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-46a3308c" data-id="46a3308c" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-ab49b85" data-id="ab49b85" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <section class="elementor-section elementor-inner-section elementor-element elementor-element-13e07b1f elementor-section-boxed elementor-section-height-default" data-id="13e07b1f" data-element_type="section">
+                                <div class="elementor-container elementor-column-gap-default">
+                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-63fe9510" data-id="63fe9510" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-a849470 elementor-widget elementor-widget-image" data-id="a849470" data-element_type="widget" data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img loading="lazy" decoding="async" width="175" height="230" src="images/selo2.png" class="attachment-large size-large wp-image-29" alt=""> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1cdd9682" data-id="1cdd9682" data-element_type="column">
+                                        <div class="elementor-widget-wrap elementor-element-populated">
+                                            <div class="elementor-element elementor-element-6040e61f elementor-widget elementor-widget-image" data-id="6040e61f" data-element_type="widget" data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <img fetchpriority="high" decoding="async" width="300" height="300" src="images/01-300x300.png" class="attachment-medium size-medium wp-image-20" alt="" srcset="images/01-300x300.png 300w, images/01-150x150.png 150w, images/01.png 500w" sizes="(max-width: 300px) 100vw, 300px"> 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="elementor-element elementor-element-4db291a2 elementor-widget elementor-widget-heading" data-id="4db291a2" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">Clique no botão abaixo
+para garantir seu acesso com</h2> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-3c15caf3 elementor-widget elementor-widget-heading" data-id="3c15caf3" data-element_type="widget" data-widget_type="heading.default">
+                                <div class="elementor-widget-container">
+                                    <h2 class="elementor-heading-title elementor-size-default">89% off</h2> 
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-714bac51 elementor-widget__width-inherit elementor-align-center elementor-widget elementor-widget-button" data-id="714bac51" data-element_type="widget" data-widget_type="button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="elementor-button-wrapper">
+                                        <a class="elementor-button elementor-button-link elementor-size-sm" href="https://app.monetizze.com.br/checkout/KSA299305"><span class="elementor-button-content-wrapper"><span class="elementor-button-text">Liberar Guia Completo</span></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-element elementor-element-7cabce81 elementor-widget elementor-widget-image" data-id="7cabce81" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img decoding="async" src="images/selos-2.png" title="selos-2" alt="selos-2" loading="lazy"> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-2a67d53e" data-id="2a67d53e" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-68fc3920 elementor-section-boxed elementor-section-height-default" data-id="68fc3920" data-element_type="section">
+                <div class="elementor-container elementor-column-gap-default">
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-6c938533" data-id="6c938533" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                    <div class="elementor-column elementor-col-66 elementor-top-column elementor-element elementor-element-6552e74c" data-id="6552e74c" data-element_type="column">
+                        <div class="elementor-widget-wrap elementor-element-populated">
+                            <div class="elementor-element elementor-element-5fa6567f elementor-widget elementor-widget-text-editor" data-id="5fa6567f" data-element_type="widget" data-widget_type="text-editor.default">
+                                <div class="elementor-widget-container">
+                                    <p style="text-align: center;">Política de Privacidade&nbsp;|&nbsp;Termos de Uso</p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-column elementor-col-16 elementor-top-column elementor-element elementor-element-750450" data-id="750450" data-element_type="column">
+                        <div class="elementor-widget-wrap">
+</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <noscript>
+            <img height="1" width="1" style="display: none;" src="https://www.facebook.com/tr?id=198122446477096&ev=PageView&noscript=1&cd%5Bpage_title%5D=home&cd%5Bpost_type%5D=page&cd%5Bpost_id%5D=9&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=institutoedunova.org%2Ftempero%2F" alt="">
+        </noscript>
+        <script src="js/hello-frontend.min.js" id="hello-theme-frontend-js"></script>
+        <script src="js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+        <script src="js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+        <script src="js/waypoints.min.js" id="elementor-waypoints-js"></script>
+        <script src="js/core.min.js" id="jquery-ui-core-js"></script>
+        <script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.19.4","is_static":false,"experimentalFeatures":{"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"hello-theme-header-footer":true,"block_editor_assets_optimize":true,"ai-layout":true,"landing-pages":true,"e_image_loading_optimization":true,"e_global_styleguide":true},"urls":{"assets":"https:\/\/institutoedunova.org\/tempero\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_footer_logo_type":"logo"},"post":{"id":9,"title":"Tempero","excerpt":"","featuredImage":false}};
+</script>
+        <script src="js/frontend.min.js" id="elementor-frontend-js"></script>
+    </body>
+</html>
+<!-- WP Fastest Cache file was created in 1.7688140869141 seconds, on 30-08-24 18:21:59 -->
